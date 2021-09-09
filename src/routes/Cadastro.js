@@ -141,9 +141,9 @@ export default function Cadastro() {
             </Grid>
             <Grid item xs={12}>
               <FormControlLabel
-                control={<Checkbox value="allowExtraEmails" color="primary" />}
+                control={<Checkbox value={!alertas} color="primary" />}
                 label="Eu desejo receber notificações, alertas e anúncios sobre os nossos atletas."
-                onChange={(e) => setAlertas(true)}
+                onChange={e => setAlertas(e.target.value)}
               />
             </Grid>
           </Grid>
@@ -166,6 +166,7 @@ export default function Cadastro() {
               color="primary"
               className={classes.submit}
               disabled
+              href="/"
             >
               Você está sendo cadastrado...
             </Button>
