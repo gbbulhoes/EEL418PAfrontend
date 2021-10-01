@@ -1,16 +1,32 @@
 .ListaEsportes {
-  margin-top: 70px;
+  margin-top: 220px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
 
 #botaoEsporte {
   width: 200px;
   height: 200px;
   margin: 15px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  border-radius: 30px;
 }
 
 #botaoModalidade {
   margin: 15px;
-  
+  border: none;
 }
 
+#botaoModalidade:hover {
+  opacity: 0.5;
+}
 
+.modalidade {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: oblique;
+}
