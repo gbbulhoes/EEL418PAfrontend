@@ -1,5 +1,11 @@
 .App {
-    padding: 20px;
-    width: '100%';
-  }
-  
+  margin: 0;
+  padding: 20px;
+  width: "100%";
+}
+
+body {
+  background-color: lightgreen;
+  margin: 0;
+  font-family: "Roboto";
+}
